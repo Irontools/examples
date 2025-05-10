@@ -1,0 +1,16 @@
+{
+  "name": "geo-distance",
+  "scripts": {
+    "build": "node esbuild.js && extism-js dist/main.js -i src/main.d.ts -o dist/main.wasm"
+  },
+  "dependencies": {
+    "geolib": "^3.3.4",
+    "iron-functions-sdk": "^1.0.0"
+  },
+  "devDependencies": {
+    "@esbuild-plugins/node-modules-polyfill": "^0.2.2",
+    "@extism/js-pdk": "^1.1.1",
+    "esbuild": "0.25.0",
+    "typescript": "~5.7.2"
+  }
+}

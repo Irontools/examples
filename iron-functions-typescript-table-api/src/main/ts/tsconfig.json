@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "target": "es2020",
+    "moduleResolution": "nodenext",
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "lib": [],
+    "types": ["@extism/js-pdk"],
+    "noEmit": true
+  },
+  "include": ["src"]
+}
