@@ -1,4 +1,4 @@
-# Iron Functions TypeScript DataStream API Demo
+# Iron Functions TypeScript Table/SQL API Demo
 
 This example shows how to use Flink Table/SQL API with Iron Functions.
 
