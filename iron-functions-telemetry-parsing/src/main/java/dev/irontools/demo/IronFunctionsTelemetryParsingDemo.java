@@ -55,6 +55,6 @@ public class IronFunctionsTelemetryParsingDemo {
 
     transformedStream.print();
 
-    env.execute("Iron Functions TypeScript DataStream Demo");
+    env.execute("Iron Functions Telemetry Parsing Demo");
   }
 }
