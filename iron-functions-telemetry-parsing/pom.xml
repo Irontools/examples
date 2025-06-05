@@ -5,7 +5,7 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>dev.irontools</groupId>
-  <artifactId>iron-functions-typescript-table-api</artifactId>
+  <artifactId>iron-functions-telemetry-parsing</artifactId>
   <version>1.0-SNAPSHOT</version>
 
   <properties>
@@ -50,15 +50,19 @@
       <scope>provided</scope>
     </dependency>
     <dependency>
-      <groupId>org.apache.flink</groupId>
-      <artifactId>flink-table-planner-loader</artifactId>
-      <version>${flink.version}</version>
-      <scope>provided</scope>
-    </dependency>
-    <dependency>
       <groupId>dev.irontools</groupId>
       <artifactId>iron-functions</artifactId>
       <version>0.9.7</version>
+    </dependency>
+    <dependency>
+      <groupId>com.github.javafaker</groupId>
+      <artifactId>javafaker</artifactId>
+      <version>1.0.2</version>
+    </dependency>
+    <dependency>
+      <groupId>com.alibaba.fastjson2</groupId>
+      <artifactId>fastjson2</artifactId>
+      <version>2.0.57</version>
     </dependency>
     <dependency>
       <groupId>org.apache.logging.log4j</groupId>
@@ -122,7 +126,7 @@
               </filters>
               <transformers>
                 <transformer implementation="org.apache.maven.plugins.shade.resource.ManifestResourceTransformer">
-                  <mainClass>dev.irontools.demo.IronFunctionsTypeScriptTableDemo</mainClass>
+                  <mainClass>dev.irontools.demo.IronFunctionsTelemetryParsingDemo</mainClass>
                 </transformer>
               </transformers>
             </configuration>

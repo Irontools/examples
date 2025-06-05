@@ -5,7 +5,7 @@ import java.nio.file.Paths;
 import org.apache.flink.table.api.EnvironmentSettings;
 import org.apache.flink.table.api.TableEnvironment;
 
-public class IronFunctionsTypeScriptTableDemo {
+public class IronFunctionsGeoDistanceDemo {
 
   public static void main(String[] args) {
     EnvironmentSettings settings = EnvironmentSettings.inStreamingMode();
@@ -14,7 +14,7 @@ public class IronFunctionsTypeScriptTableDemo {
 
     // Feel free to change the path to your local path
     Path currentPath =
-        Paths.get(System.getProperty("user.dir") + "/iron-functions-typescript-table-api");
+        Paths.get(System.getProperty("user.dir") + "/iron-functions-geo-distance-udf");
 
     tEnv.executeSql(
         "CREATE FUNCTION geo_distance AS 'com.demo.geo.GeoDistance' LANGUAGE JAVA USING JAR"

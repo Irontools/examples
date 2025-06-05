@@ -1,6 +1,6 @@
-# Iron Functions TypeScript DataStream API Demo
+# Iron Functions Telemetry Parsing Demo
 
-This example shows how to use Flink DataStream API with Iron Functions. It showcases two useful features:
+This example shows how to use Flink DataStream API with Iron Functions (TypeScript support). It showcases two useful features:
 
 - Output unnesting. If the WebAssembly function returns an array of records, its output can be "flattened" to multiple
 Flink records.
@@ -13,4 +13,4 @@ folder, e.g. `src/main/resources/wasm/demo-telemetry.wasm` and start the Flink a
 
 ---
 
-**NOTE**: this project requires an active Irontools License. Contact us at hello@irontools.dev to obtain one.
+**NOTE**: this project requires an active Irontools License. You can obtain it [here](https://irontools.dev/pricing/).

@@ -10,7 +10,7 @@ import org.apache.flink.table.runtime.types.TypeInfoDataTypeConverter;
 import org.apache.flink.table.types.DataType;
 import org.apache.flink.types.Row;
 
-public class IronFunctionsTypeScriptDataStreamDemo {
+public class IronFunctionsTelemetryParsingDemo {
 
   public static void main(String[] args) throws Exception {
     StreamExecutionEnvironment env = StreamExecutionEnvironment.getExecutionEnvironment();

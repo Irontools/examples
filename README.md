@@ -1,4 +1,4 @@
 # Irontools Examples
 
-- [iron-functions-typescript-datastream-api](./iron-functions-typescript-datastream-api): Iron Functions DataStream API + TypeScript example.
-- [iron-functions-typescript-table-api](./iron-functions-typescript-table-api): Iron Functions Table/SQL API + TypeScript example.
+- [iron-functions-telemetry-parsing](./iron-functions-telemetry-parsing): Iron Functions DataStream API + TypeScript example. Shows how to implement parsing and unnesting of telemetry data.
+- [iron-functions-geo-distance-udf](./iron-functions-typescript-table-api): Iron Functions Table/SQL API + TypeScript example. Shows how to implement a user-defined function (UDF) for calculating distances between geographical points.
