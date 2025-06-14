@@ -58,7 +58,7 @@
     <dependency>
       <groupId>dev.irontools</groupId>
       <artifactId>iron-functions</artifactId>
-      <version>0.9.7</version>
+      <version>0.9.8</version>
     </dependency>
     <dependency>
       <groupId>org.apache.logging.log4j</groupId>
